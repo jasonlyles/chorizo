@@ -1,0 +1,61 @@
+body {font-size:85%;}
+html {
+  background: white;
+}
+body {
+  background: white;
+  color: #231903;
+}
+
+img.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+
+body {
+  background-image:url('../images/background.png');
+background-position:bottom center;
+background-attachment:fixed;
+}
+
+.highlight {
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #7BAF6B;
+  }
+.price {
+
+  font-weight: bolder;
+  color: #429438;
+}
+
+a { color: #429438;}
+
+.tweet {
+  font-family: Georgia, serif;
+  font-size: 120%;
+  color: black; }
+  .tweet .tweet_list {
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #7BAF6B; }
+    .tweet .tweet_list li {
+      overflow: auto;
+      padding: .5em; }
+      .tweet .tweet_list li a {
+        color: #EE3D41; }
+    .tweet .tweet_list .tweet_even {
+      background-color: #86B477; }
+    .tweet .tweet_list .tweet_avatar {
+      padding-right: .5em;
+      float: left; }
+      .tweet .tweet_list .tweet_avatar img {
+        vertical-align: middle; }
+
