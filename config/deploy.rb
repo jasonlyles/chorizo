@@ -5,7 +5,7 @@ set :domain, 'districttaco.com'
 set :application, 'dtaco'
 
 set :repository,  "git@github.com:csexton/chorizo.git"
-set :deploy_to, "/home/dtaco/dev.districttaco.com"
+set :deploy_to, "/home/dtaco/districttaco.com"
 set :deploy_via, :remote_cache
 set :scm, 'git'
 set :branch, 'master'
